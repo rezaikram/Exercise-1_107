@@ -38,16 +38,10 @@ void display() {
 
 int main() {
 	double nilM, nilB;
-	//double rata;
-	//string st;
 	cout << "Masukan nilai Matematika = ";
 	cin >> nilM;
 	cout << "Masukkan nilai Bahasa Inggris = ";
 	cin >> nilB;
-	//rata = rerata(nilM,nilB);
-	//st = status(rata);
-	//cout << "Status kelulusan = ' << st;
-	//cout << "Status kelulusan = " << status(rata);
 	cout << "Status kelulusan = " << status(rerata(nilM, nilB));
 	return 0;
 }
